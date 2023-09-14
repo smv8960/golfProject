@@ -4,8 +4,8 @@ and a blur oversized cursor along with it */
 var cursor = document.querySelector("#cursor")
 var cursorBlur = document.querySelector("#cursor-blur")
 document.addEventListener("mousemove",function(details){
-    cursor.style.left = details.x-12.5+"px"
-    cursor.style.top = details.y-12.5+"px" 
+    cursor.style.left = details.x-10+"px"
+    cursor.style.top = details.y-10+"px" 
     cursorBlur.style.left = details.x-150+"px"
     cursorBlur.style.top = details.y-150+"px"
 });
